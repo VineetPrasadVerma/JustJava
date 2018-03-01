@@ -4,8 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/coffee"
     android:orientation="vertical"
     tools:context="com.example.vineetprasadverma.justjava.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:text="@string/cafe_name"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -14,7 +24,9 @@
         android:layout_marginTop="16dp"
         android:text="@string/quantity"
         android:textAllCaps="true"
-        android:textSize="16sp" />
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
 
     <LinearLayout
 
@@ -29,7 +41,8 @@
             android:layout_marginTop="16dp"
             android:onClick="decrement"
             android:text="@string/buttondec"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
 
         <TextView
@@ -40,8 +53,9 @@
             android:paddingLeft="8dp"
             android:paddingRight="8dp"
             android:text="@string/quantity_value"
-            android:textColor="#000000"
-            android:textSize="16sp" />
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <Button
             android:layout_width="48dp"
@@ -49,7 +63,8 @@
             android:layout_marginTop="16dp"
             android:onClick="increment"
             android:text="@string/buttoninc"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
 
     </LinearLayout>
@@ -61,7 +76,9 @@
         android:layout_marginTop="16dp"
         android:text="@string/price"
         android:textAllCaps="true"
-        android:textSize="16sp" />
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/price_text_view"
@@ -70,7 +87,9 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:text="@string/price_value"
-        android:textSize="16sp" />
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
 
     <Button
         android:layout_width="wrap_content"
@@ -78,7 +97,8 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:onClick="submitOrder"
-        android:text="@string/order" />
+        android:text="@string/order"
+        android:textStyle="bold" />
 
 
 </LinearLayout>
