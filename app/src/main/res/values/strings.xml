@@ -2,10 +2,10 @@
     <string name="app_name">Just Java</string>
     <string name="quantity">quantity</string>
     <string name="order">order</string>
-    <string name="price">price</string>
+    <string name="ordersummary">Order summary</string>
     <string name ="buttoninc">+</string>
     <string name ="buttondec">-</string>
-    <string name ="price_value">$0</string>
+    <string name ="price_value">₹ 0</string>
     <string name ="quantity_value">0</string>
     <string name ="cafe_name">DARVIN\'S CAFE</string>
 </resources>
