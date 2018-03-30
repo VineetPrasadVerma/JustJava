@@ -6,6 +6,10 @@
     <string name ="buttoninc">+</string>
     <string name ="buttondec">-</string>
     <string name ="price_value">₹ 0</string>
-    <string name ="quantity_value">0</string>
+    <string name ="quantity_value">2</string>
     <string name ="cafe_name">DARVIN\'S CAFE</string>
+    <string name ="toppings">Toppings</string>
+    <string name ="whipped_cream">Whipped Cream</string>
+    <string name ="chocolate">Chocolate</string>
+    <string name ="name">Name</string>
 </resources>
