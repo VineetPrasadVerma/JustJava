@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name = "left_margin">16dp</dimen>
+    <dimen name = "top_margin">16dp</dimen>
+    <dimen name = "bottom_margin">16dp</dimen>
+    <dimen name = "top_margin_for_DarvinsCafe">20dp</dimen>
+    <dimen name = "bottom_margin_for_DarvinsCafe">20dp</dimen>
+    <dimen name = "textSizeforDarvinsCafe">36sp</dimen>
+    <dimen name = "textSize">16sp</dimen>
+    <dimen name = "buttonSize">20sp</dimen>
+    <dimen name = "left_padding">16dp</dimen>
+    <dimen name = "button_right_padding">16dp</dimen>
+    <dimen name = "button_left_padding">16dp</dimen>
+    <dimen name = "button_height">48dp</dimen>
+    <dimen name = "button_width">48dp</dimen>
+
+</resources>

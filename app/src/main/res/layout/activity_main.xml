@@ -2,8 +2,8 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     tools:context="com.example.vineetprasadverma.justjava.MainActivity">
 
     <LinearLayout
@@ -16,68 +16,68 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="20dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginBottom="@dimen/bottom_margin_for_DarvinsCafe"
+            android:layout_marginTop="@dimen/top_margin_for_DarvinsCafe"
             android:text="@string/cafe_name"
-            android:textColor="#FFFFFF"
-            android:textSize="36sp"
+            android:textColor="@color/colorwhite"
+            android:textSize="@dimen/textSizeforDarvinsCafe"
             android:textStyle="bold" />
 
         <EditText
             android:id="@+id/name_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:textColorHint="#ffffff"
+            android:layout_marginLeft="@dimen/left_margin"
+            android:textColorHint="@color/colorwhite"
             android:hint="@string/name"
             android:textStyle="bold"
-            android:inputType="textCapWords"
-            android:textColor="#ffffff"/>
+            android:textColor="@color/colorwhite"
+            android:inputType="textCapWords" />
 
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="@dimen/bottom_margin"
+            android:layout_marginTop="@dimen/top_margin"
+            android:layout_marginLeft="@dimen/left_margin"
             android:text="@string/toppings"
             android:textAllCaps="true"
-            android:textColor="#FFFFFF"
-            android:textSize="16sp"
+            android:textColor="@color/colorwhite"
+            android:textSize="@dimen/textSize"
             android:textStyle="bold" />
 
         <CheckBox
             android:id="@+id/whipped_cream_checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:paddingLeft="24dp"
+            android:layout_marginLeft="@dimen/left_margin"
+            android:paddingLeft="@dimen/left_padding"
             android:text="@string/whipped_cream"
-            android:textColor="#ffffff"
-            android:textSize="16sp"
+            android:textColor="@color/colorwhite"
+            android:textSize="@dimen/textSize"
             android:textStyle="bold" />
 
         <CheckBox
             android:id="@+id/chocolate_checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:paddingLeft="24dp"
+            android:layout_marginLeft="@dimen/left_margin"
+            android:paddingLeft="@dimen/left_padding"
             android:text="@string/chocolate"
-            android:textColor="#ffffff"
-            android:textSize="16sp"
+            android:textColor="@color/colorwhite"
+            android:textSize="@dimen/textSize"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginLeft="@dimen/left_margin"
+            android:layout_marginTop="@dimen/top_margin"
             android:text="@string/quantity"
             android:textAllCaps="true"
-            android:textColor="#FFFFFF"
-            android:textSize="16sp"
+            android:textColor="@color/colorwhite"
+            android:textSize="@dimen/textSize"
             android:textStyle="bold" />
 
         <LinearLayout
@@ -87,13 +87,13 @@
             android:orientation="horizontal">
 
             <Button
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginTop="16dp"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginLeft="@dimen/left_margin"
+                android:layout_marginTop="@dimen/top_margin"
                 android:onClick="decrement"
                 android:text="@string/buttondec"
-                android:textSize="20sp"
+                android:textSize="@dimen/buttonSize"
                 android:textStyle="bold" />
 
 
@@ -101,21 +101,21 @@
                 android:id="@+id/quantity_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:paddingLeft="8dp"
-                android:paddingRight="8dp"
+                android:layout_marginTop="@dimen/top_margin"
+                android:paddingLeft="@dimen/button_left_padding"
+                android:paddingRight="@dimen/button_right_padding"
                 android:text="@string/quantity_value"
-                android:textColor="#FFFFFF"
-                android:textSize="16sp"
+                android:textColor="@color/colorwhite"
+                android:textSize="@dimen/textSize"
                 android:textStyle="bold" />
 
             <Button
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:layout_marginTop="16dp"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginTop="@dimen/top_margin"
                 android:onClick="increment"
                 android:text="@string/buttoninc"
-                android:textSize="20sp"
+                android:textSize="@dimen/buttonSize"
                 android:textStyle="bold" />
 
 
@@ -124,30 +124,30 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginLeft="@dimen/left_margin"
+            android:layout_marginTop="@dimen/top_margin"
             android:text="@string/ordersummary"
             android:textAllCaps="true"
-            android:textColor="#FFFFFF"
-            android:textSize="16sp"
+            android:textColor="@color/colorwhite"
+            android:textSize="@dimen/textSize"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/order_summary_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginLeft="@dimen/left_margin"
+            android:layout_marginTop="@dimen/top_margin"
             android:text="@string/price_value"
-            android:textColor="#FFFFFF"
-            android:textSize="16sp"
+            android:textColor="@color/colorwhite"
+            android:textSize="@dimen/textSize"
             android:textStyle="bold" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginLeft="@dimen/left_margin"
+            android:layout_marginTop="@dimen/top_margin"
             android:onClick="submitOrder"
             android:text="@string/order"
             android:textStyle="bold" />
